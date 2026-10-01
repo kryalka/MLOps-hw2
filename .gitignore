@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+.idea/
+.vscode/
+
+.DS_Store
+data/*
+!data/.gitkeep
+tmp/
+/преза_*.pdf
+results/*.tmp

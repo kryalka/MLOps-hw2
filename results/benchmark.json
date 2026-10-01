@@ -1,0 +1,244 @@
+{
+  "clickhouse_version": "25.8.33.6",
+  "runs": 9,
+  "warmup": 2,
+  "settings": "max_threads=2, optimize_aggregation_in_order=1, use_query_cache=0, log_queries=1, log_queries_probability=1, log_queries_min_query_duration_ms=0",
+  "queries": {
+    "transactions_base": {
+      "median_ms": 41,
+      "min_ms": 37,
+      "max_ms": 51,
+      "samples": [
+        {
+          "query_id": "hw2-1791813793535906000-transactions_base-0",
+          "query_duration_ms": 51,
+          "read_rows": 262144,
+          "read_bytes": 14444422,
+          "memory_usage": 3427759
+        },
+        {
+          "query_id": "hw2-1791813793535906000-transactions_base-1",
+          "query_duration_ms": 41,
+          "read_rows": 262144,
+          "read_bytes": 14444422,
+          "memory_usage": 3427759
+        },
+        {
+          "query_id": "hw2-1791813793535906000-transactions_base-2",
+          "query_duration_ms": 41,
+          "read_rows": 262144,
+          "read_bytes": 14444422,
+          "memory_usage": 3427759
+        },
+        {
+          "query_id": "hw2-1791813793535906000-transactions_base-3",
+          "query_duration_ms": 37,
+          "read_rows": 262144,
+          "read_bytes": 14444422,
+          "memory_usage": 3427759
+        },
+        {
+          "query_id": "hw2-1791813793535906000-transactions_base-4",
+          "query_duration_ms": 38,
+          "read_rows": 262144,
+          "read_bytes": 14444422,
+          "memory_usage": 3427759
+        },
+        {
+          "query_id": "hw2-1791813793535906000-transactions_base-5",
+          "query_duration_ms": 43,
+          "read_rows": 262144,
+          "read_bytes": 14444422,
+          "memory_usage": 3427759
+        },
+        {
+          "query_id": "hw2-1791813793535906000-transactions_base-6",
+          "query_duration_ms": 41,
+          "read_rows": 262144,
+          "read_bytes": 14444422,
+          "memory_usage": 3427759
+        },
+        {
+          "query_id": "hw2-1791813793535906000-transactions_base-7",
+          "query_duration_ms": 45,
+          "read_rows": 262144,
+          "read_bytes": 14444422,
+          "memory_usage": 3427759
+        },
+        {
+          "query_id": "hw2-1791813793535906000-transactions_base-8",
+          "query_duration_ms": 51,
+          "read_rows": 262144,
+          "read_bytes": 14444422,
+          "memory_usage": 3427759
+        }
+      ]
+    },
+    "transactions_optimized": {
+      "median_ms": 15,
+      "min_ms": 14,
+      "max_ms": 15,
+      "samples": [
+        {
+          "query_id": "hw2-1791813794083614000-transactions_optimized-0",
+          "query_duration_ms": 15,
+          "read_rows": 262144,
+          "read_bytes": 7492145,
+          "memory_usage": 3236797
+        },
+        {
+          "query_id": "hw2-1791813794083614000-transactions_optimized-1",
+          "query_duration_ms": 15,
+          "read_rows": 262144,
+          "read_bytes": 7492145,
+          "memory_usage": 3236781
+        },
+        {
+          "query_id": "hw2-1791813794083614000-transactions_optimized-2",
+          "query_duration_ms": 15,
+          "read_rows": 262144,
+          "read_bytes": 7492145,
+          "memory_usage": 3236781
+        },
+        {
+          "query_id": "hw2-1791813794083614000-transactions_optimized-3",
+          "query_duration_ms": 15,
+          "read_rows": 262144,
+          "read_bytes": 7492145,
+          "memory_usage": 3236781
+        },
+        {
+          "query_id": "hw2-1791813794083614000-transactions_optimized-4",
+          "query_duration_ms": 15,
+          "read_rows": 262144,
+          "read_bytes": 7492145,
+          "memory_usage": 3236781
+        },
+        {
+          "query_id": "hw2-1791813794083614000-transactions_optimized-5",
+          "query_duration_ms": 15,
+          "read_rows": 262144,
+          "read_bytes": 7492145,
+          "memory_usage": 3236781
+        },
+        {
+          "query_id": "hw2-1791813794083614000-transactions_optimized-6",
+          "query_duration_ms": 15,
+          "read_rows": 262144,
+          "read_bytes": 7492145,
+          "memory_usage": 3236781
+        },
+        {
+          "query_id": "hw2-1791813794083614000-transactions_optimized-7",
+          "query_duration_ms": 14,
+          "read_rows": 262144,
+          "read_bytes": 7492145,
+          "memory_usage": 3236781
+        },
+        {
+          "query_id": "hw2-1791813794083614000-transactions_optimized-8",
+          "query_duration_ms": 15,
+          "read_rows": 262144,
+          "read_bytes": 7492145,
+          "memory_usage": 3236781
+        }
+      ]
+    },
+    "max_transaction_by_state": {
+      "median_ms": 1,
+      "min_ms": 1,
+      "max_ms": 1,
+      "samples": [
+        {
+          "query_id": "hw2-1791813794260826000-max_transaction_by_state-0",
+          "query_duration_ms": 1,
+          "read_rows": 51,
+          "read_bytes": 7446,
+          "memory_usage": 1254195
+        },
+        {
+          "query_id": "hw2-1791813794260826000-max_transaction_by_state-1",
+          "query_duration_ms": 1,
+          "read_rows": 51,
+          "read_bytes": 7446,
+          "memory_usage": 1254179
+        },
+        {
+          "query_id": "hw2-1791813794260826000-max_transaction_by_state-2",
+          "query_duration_ms": 1,
+          "read_rows": 51,
+          "read_bytes": 7446,
+          "memory_usage": 1254179
+        },
+        {
+          "query_id": "hw2-1791813794260826000-max_transaction_by_state-3",
+          "query_duration_ms": 1,
+          "read_rows": 51,
+          "read_bytes": 7446,
+          "memory_usage": 1254179
+        },
+        {
+          "query_id": "hw2-1791813794260826000-max_transaction_by_state-4",
+          "query_duration_ms": 1,
+          "read_rows": 51,
+          "read_bytes": 7446,
+          "memory_usage": 1254179
+        },
+        {
+          "query_id": "hw2-1791813794260826000-max_transaction_by_state-5",
+          "query_duration_ms": 1,
+          "read_rows": 51,
+          "read_bytes": 7446,
+          "memory_usage": 1254179
+        },
+        {
+          "query_id": "hw2-1791813794260826000-max_transaction_by_state-6",
+          "query_duration_ms": 1,
+          "read_rows": 51,
+          "read_bytes": 7446,
+          "memory_usage": 1254179
+        },
+        {
+          "query_id": "hw2-1791813794260826000-max_transaction_by_state-7",
+          "query_duration_ms": 1,
+          "read_rows": 51,
+          "read_bytes": 7446,
+          "memory_usage": 1254179
+        },
+        {
+          "query_id": "hw2-1791813794260826000-max_transaction_by_state-8",
+          "query_duration_ms": 1,
+          "read_rows": 51,
+          "read_bytes": 7446,
+          "memory_usage": 1254179
+        }
+      ]
+    }
+  },
+  "storage": [
+    {
+      "table": "max_transaction_by_state",
+      "total_rows": 51,
+      "active_parts": 1,
+      "compressed_bytes": 1247,
+      "uncompressed_bytes": 2167,
+      "bytes_on_disk": 1441
+    },
+    {
+      "table": "transactions_base",
+      "total_rows": 262144,
+      "active_parts": 1,
+      "compressed_bytes": 20502780,
+      "uncompressed_bytes": 46261907,
+      "bytes_on_disk": 20508039
+    },
+    {
+      "table": "transactions_optimized",
+      "total_rows": 262144,
+      "active_parts": 1,
+      "compressed_bytes": 16915800,
+      "uncompressed_bytes": 42719334,
+      "bytes_on_disk": 16921005
+    }
+  ]
+}
